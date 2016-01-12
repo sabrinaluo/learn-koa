@@ -15,4 +15,12 @@ gulp.task('watch', () => {
   gulp.watch('app.js', ['eslint']);
 });
 
-gulp.task('default', ['watch']);
+gulp.task('start', () => {
+  $.nodemon({
+    script: 'app.js',
+    ext: 'js',
+    env: {NODE_ENV: 'dev'}
+  });
+});
+
+gulp.task('default', ['start'])

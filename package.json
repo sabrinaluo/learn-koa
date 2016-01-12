@@ -12,7 +12,8 @@
     "eslint": "^1.10.3",
     "eslint-config-google": "^0.3.0",
     "gulp": "^3.9.0",
-    "gulp-eslint": "^1.1.1"
+    "gulp-eslint": "^1.1.1",
+    "gulp-nodemon": "^2.0.6"
   },
   "dependencies": {
     "koa": "^1.1.2"
